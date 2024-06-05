@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(to right, #a9e3f6 , #eaa7b2);
+  overflow-x: hidden;
+}
+
+#sketchpadapp {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#sketchpad {
+  height: 450px;
+  width: 450px;
+  border-radius:8px;
+}
+
+#prediction_heading{
+  font-family: 'Cinzel';
+  margin-top: 7.5%;
+  font-size: 3rem;
+}
+
+#result{
+  font-family: 'Cinzel';
+  font-size: 8rem;
+}
+
+#confidence{
+  font-family:'Cinzel' ;
+  margin-top: 11.5%;
+  font-size: 1.8rem;
+}
+
+#clear_button{
+  margin-left: 14px;
+  font-weight: bold;
+  color: rgb(84, 84, 247);
+  background-color: transparent; 
+}
+
+#predict_button{
+  margin-right: 14px;
+  color: rgb(84, 84, 247);
+  font-weight: bold;
+  background-color: transparent; 
+}
+
+.btn {
+
+  border: 2px solid rgb(169, 182, 255);
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+.buttons_div{
+  margin-bottom: 30px;
+  margin-top: 16px;
+  font-family: 'Cinzel';
+}
+
+.leftside{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4%;
+
+}
+
+.predicted_answer{
+  text-align: center;
+  margin: 0 auto;
+  padding: 3% 5%;
+  padding-top: 0;
+}
+
+@media (min-width: 720px) {
+  .leftside{
+    padding-left: 10%;
+  }
+}
