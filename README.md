@@ -26,11 +26,9 @@ Handles image processing tasks and interfaces with the CNN model.
 Trained CNN model for letter recognition.
 Predicts letters present in input images.
 
-
-<br>
 <br>
 
-### Used Technologies
+## Used Technologies
 - Tensorflow
 - Keras
 - Numpy
